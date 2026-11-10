@@ -116,7 +116,10 @@ module, the CLI and the local Compose project).
 
 ## Contributing
 
-Open a pull request on GitHub against `main`. CI runs the Go, web and database
+Report bugs and request features in [GitHub issues](https://github.com/subculture-collective/prichal/issues).
+Ask questions and share ideas in [GitHub Discussions](https://github.com/subculture-collective/prichal/discussions).
+
+Send code as a pull request on GitHub against `main`. CI runs the Go, web and database
 smoke test, the deploy script tests and alert rule checks, and builds the web
 image on every pull request.
 
