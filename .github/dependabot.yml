@@ -13,6 +13,8 @@ updates:
         update-types: ["version-update:semver-major"]
       # River is pre-1.0 and its minor releases can carry schema migrations.
       - dependency-name: "github.com/riverqueue/river*"
+      # stripe-go v87.1.0 fails the local checkout fixture test; update both together.
+      - dependency-name: "github.com/stripe/stripe-go/v87"
     groups:
       go:
         update-types: [minor, patch]
